@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:45:26 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMTA6Mzc6NTIgIjsyNjcw"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMTA6NDU6MjYgIjsxOzI3Nzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia, mes, ano" type="Integer" array="False" size=""/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <if expression="dia&lt;=31">
+                <then>
+                    <if expression="mes&lt;=12">
+                        <then>
+                            <if expression="ano&lt;2999">
+                                <then>
+                                    <output expression="&quot;esta data &#233; valida&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;o ano esta incorreto&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;o mes esta incorreto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;o dia esta incorreto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

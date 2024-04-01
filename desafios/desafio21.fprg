@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:36:09 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6MzI6MjggIjsyNjY5"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6MzY6MDkgIjsxOzI3ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, QAD, DIF" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="QAD" expression="(A-B)^2"/>
+            <assign variable="DIF" expression="(A+B)*(A-B)"/>
+            <output expression="&quot;O QUADRADO DA DIFEREN&#199;A &#201;&quot;" newline="True"/>
+            <output expression="QAD" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

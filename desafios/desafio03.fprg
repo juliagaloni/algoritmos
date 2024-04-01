@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 09:16:52 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDk6MTM6NTYgIjsyNjc0"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDk6MTY6NTIgIjsxOzI3ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angulo, seno, coss, tang" type="Integer" array="False" size=""/>
+            <input variable="angulo"/>
+            <assign variable="seno" expression="Sin(angulo)"/>
+            <output expression="seno" newline="True"/>
+            <assign variable="coss" expression="Cos(angulo)"/>
+            <output expression="coss" newline="True"/>
+            <assign variable="tang" expression="Tan(angulo)"/>
+            <output expression="tang" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:43:09 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NDE6NTggIjsyNjcw"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NDM6MDkgIjsxOzI3NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p1, p, n" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="p1"/>
+            <input variable="n"/>
+            <assign variable="p" expression="(n*r)+p1"/>
+            <output expression="p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

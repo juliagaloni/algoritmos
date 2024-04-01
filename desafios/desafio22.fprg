@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:37:40 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6MzY6MjMgIjsyNjY4"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6Mzc6NDAgIjsxOzI3NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lados, diagonais" type="Integer" array="False" size=""/>
+            <input variable="lados"/>
+            <assign variable="diagonais" expression="lados*(lados-3)/2"/>
+            <output expression="diagonais" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

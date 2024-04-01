@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:49:07 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMDI6MTk6MTcgIjsyNjcy"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMDQ6NDk6MDcgIjszOzI3ODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, subtra&#231;&#227;o, Ai, i" type="Integer" array="False" size=""/>
+            <input variable="soma"/>
+            <input variable="subtra&#231;&#227;o"/>
+            <assign variable="soma" expression="A(i)=A(i-1)+A(i-2)"/>
+            <assign variable="subtra&#231;&#227;o" expression="A(i)=A(i-1)-A(i-2)"/>
+            <output expression="soma" newline="True"/>
+            <output expression="subtra&#231;&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

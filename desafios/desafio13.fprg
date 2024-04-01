@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 03:00:03 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NDM6NTAgIjsyNjY0"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NDY6MjEgIjsxO2p1bGlhLmdhbG9uaTtOVDQ1OzIwMjQtMDMtMDQ7IjAyOjQxOjU4ICI7ZGVzYWZpbzEyLmZwcmc7Njg2OA=="/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDM6MDA6MDMgIjszOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p1, p, n" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="p1"/>
+            <input variable="n"/>
+            <assign variable="p" expression="(n^r)+p1"/>
+            <output expression="p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

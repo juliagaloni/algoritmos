@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 01:32:24 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO0RFU0tUT1AtQzJNNUNWSzsyMDI0LTAxLTMxOyIwMToyNzo0OSAiOzM0NjI="/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO0RFU0tUT1AtQzJNNUNWSzsyMDI0LTAxLTMxOyIwMTozMjoyNCAiOzE7MzU1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="delta" expression="delta(a,b,c)"/>
+            <if expression="delta&gt;=0">
+                <then>
+                    <call expression="raiz(a,b,delta)"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

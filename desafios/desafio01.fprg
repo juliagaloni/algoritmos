@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:56:20 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDg6NDA6MzYgIjsyNjcx"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMTA6NTY6MjAgIjszOzI3NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="data, dd, mm, aaaa" type="Integer" array="False" size=""/>
+            <input variable="data"/>
+            <input variable="dd"/>
+            <input variable="mm"/>
+            <input variable="aaaa"/>
+            <assign variable="data" expression="04/03/2024"/>
+            <output expression="dd &amp; &quot;/&quot;&amp;mm&amp;&quot;/&quot;&amp;aaaa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 04:27:50 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6MjU6MzEgIjsyNjY1"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDQ6Mjc6NTAgIjsxOzI3NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="horas, minutA, minutM" type="Integer" array="False" size=""/>
+            <input variable="horas"/>
+            <input variable="minutA"/>
+            <assign variable="minutM" expression="(horas*60)+minutA"/>
+            <output expression="minutM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

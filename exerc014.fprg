@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 10:21:46 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO0RFU0tUT1AtQzJNNUNWSzsyMDI0LTAyLTA1OyIwODozNDoxNiAiOzM0NjM="/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO0RFU0tUT1AtQzJNNUNWSzsyMDI0LTAyLTA1OyIxMDoyMTo0NiAiOzM7MzU2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, media" type="Real" array="False" size=""/>
+            <declare name="faltas, aulas" type="Integer" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="faltas"/>
+            <assign variable="media" expression="(nota1*2 + nota2*3 + nota3*5)/10"/>
+            <assign variable="presen&#231;a" expression="presen&#231;a(faltas,aulas)"/>
+            <if expression="media&gt;=7.0 &amp;&amp; faltas &lt;= (0.25*aulas)">
+                <then>
+                    <output expression="nome &amp; &quot;aprovado com media&quot;  &amp; media &amp;&quot; e&quot; &amp; faltas &amp; &quot;faltas&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nome &amp; &quot;reprovado com media&quot; &amp; media &amp;&quot; e&quot; &amp; faltas &amp; &quot;faltas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="media" type="None" variable="">
+        <parameters>
+            <parameter name="nota1" type="Real" array="False"/>
+            <parameter name="nota2" type="Real" array="False"/>
+            <parameter name="nota3" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="media" expression=""/>
+        </body>
+    </function>
+    <function name="presen&#231;a" type="Real" variable="presen&#231;a">
+        <parameters>
+            <parameter name="faltas" type="Integer" array="False"/>
+            <parameter name="aulas" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="presen&#231;a" type="Real" array="False" size=""/>
+            <assign variable="presen&#231;a" expression="faltas/aulas"/>
+        </body>
+    </function>
+</flowgorithm>

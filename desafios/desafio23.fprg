@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 08:49:08 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMDc6Mzg6MjkgIjsyNjgx"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNjsiMDg6NDk6MDggIjsyOzI3OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VA, i, p, n" type="Real" array="False" size=""/>
+            <input variable="p"/>
+            <input variable="i"/>
+            <input variable="n"/>
+            <assign variable="p" expression="100.00"/>
+            <assign variable="i" expression="0.01"/>
+            <assign variable="n" expression="12"/>
+            <assign variable="VA" expression="P*((1+p)^n - 1)/i"/>
+            <assign variable="VA" expression="100*((1+0.01)^12 -1)/0.01"/>
+            <output expression="p" newline="True"/>
+            <output expression="i" newline="True"/>
+            <output expression="n" newline="True"/>
+            <output expression="VA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

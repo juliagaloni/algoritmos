@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:10:08 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMTA6MDA6MTAgIjsyNjUy"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMTA6MTA6MDggIjsxOzI3Njg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="KW" type="Integer" array="False" size=""/>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <input variable="salario"/>
+            <assign variable="salario" expression="salario/7"/>
+            <assign variable="salario" expression="salario/100"/>
+            <output expression="salario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

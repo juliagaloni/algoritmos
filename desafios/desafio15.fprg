@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="julia.galoni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:51:52 "/>
+        <attribute name="created" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NTA6MTggIjsyNjY2"/>
+        <attribute name="edited" value="anVsaWEuZ2Fsb25pO05UNDU7MjAyNC0wMy0wNDsiMDI6NTE6NTIgIjsxOzI3NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, r, v" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="r"/>
+            <assign variable="v" expression="pi*r^2*A"/>
+            <output expression="&quot;O volume da sua latinha &#233; de&quot;&amp;v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
